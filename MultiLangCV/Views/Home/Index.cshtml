@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+ <!--<![endif]-->
+<head>
+    @Styles.Render("~/Content/css")
+    <title>D.Sirotkin</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="shortcut icon" href="~/content/clip.ico">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>    
+        <div class="wrapper">
+            <div class="sidebar-wrapper">
+                <div class="lang-container">
+                    <button type="button" class="btn btn-link btn-sm" onclick="location.href='@Url.Action("ChangeLang", "Home", new { LangCode = "uk" })'">
+                        <span class="lang-sm" lang="uk"></span>
+                    </button>
+                    <button type="button" class="btn btn-link btn-sm" onclick="location.href='@Url.Action("ChangeLang", "Home", new { LangCode = "en" })'">
+                        <span class="lang-sm" lang="en"></span>
+                    </button>
+                    <button type="button" class="btn btn-link btn-sm" onclick="location.href='@Url.Action("ChangeLang", "Home", new { LangCode = "ru" })'"> 
+                        <span class="lang-sm" lang="ru"></span>
+                    </button>
+                </div>
+                    <div class="profile-container">
+                        <img class="profile" src="~/Content/profile.png" alt="" />
+                        <h1 class="name">@MultiLangCV.App_GlobalResources.CV.sb_name</h1>
+                        <h3 class="tagline">@MultiLangCV.App_GlobalResources.CV.sb_position</h3>
+                    </div><!--//profile-container-->
+
+
+                    <div class="contact-container container-block">
+                        <ul class="list-unstyled contact-list">
+                            <h2 class="container-block-title">@MultiLangCV.App_GlobalResources.CV.sb_contacts</h2>
+                            <li class="email"><i class="fa fa-envelope"></i><a href="mailto: it.sirotkin@gmail.com">it.sirotkin@gmail.com</a></li>
+                            <li class="phone"><i class="fa fa-phone"></i><a href="tel:+380939033933">+38(093) 903 39 33</a></li>                            
+                            <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/dmytro-sirotkin-2a277111b/" target="_blank">linkedin.com</a></li>
+                            <li class="github"><i class="fa fa-github"></i><a href="https://github.com/dsirotkin" target="_blank">github.com/dsirotkin</a></li>
+                            <li class="twitter"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/it.sirotkin" target="_blank">Facebook.com/it.sirotkin</a></li>
+                        </ul>
+                    </div><!--//contact-container-->
+                <div class="about-container container-block">
+                    <h2 class="container-block-title">@MultiLangCV.App_GlobalResources.CV.sb_other</h2>
+                    <ul class="list-unstyled about-list">
+                        <li>@MultiLangCV.App_GlobalResources.CV.sb_dob : 03.07.1990</li>
+                        <li>@MultiLangCV.App_GlobalResources.CV.sb_region : @MultiLangCV.App_GlobalResources.CV.sb_region_name</li>                        
+                    </ul>
+                </div><!--//about-->  
+                            
+                </div><!--//sidebar-wrapper-->          
+
+            <div class="main-wrapper">
+                
+
+                <section class="section experiences-section">
+                    <h2 class="section-title"><i class="fa fa-briefcase"></i>@MultiLangCV.App_GlobalResources.CV.mw_experiences</h2>
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">@MultiLangCV.App_GlobalResources.CV.mw_3_exp_pos</h3>
+                                <div class="time">@MultiLangCV.App_GlobalResources.CV.mw_3_exp_time</div>
+                            </div><!--//upper-row-->
+                            <div class="company">@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_3_exp_company)</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <p>@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_3_exp_resp)</p>
+                        </div><!--//details-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">@MultiLangCV.App_GlobalResources.CV.mw_2_exp_pos</h3>
+                                <div class="time">@MultiLangCV.App_GlobalResources.CV.mw_2_exp_time</div>
+                            </div><!--//upper-row-->
+                            <div class="company">@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_2_exp_company)</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <p>@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_2_exp_resp)</p>
+                        </div><!--//details-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">@MultiLangCV.App_GlobalResources.CV.mw_1_exp_pos</h3>
+                                <div class="time">@MultiLangCV.App_GlobalResources.CV.mw_1_exp_time</div>
+                            </div><!--//upper-row-->
+                            <div class="company">@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_1_exp_company)</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <p>@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_1_exp_resp)</p>
+                        </div><!--//details-->
+                    </div><!--//item-->
+
+
+                </section><!--//section-->
+
+                <section class="section summary-section">
+                    <h2 class="section-title"><i class="fa fa-user"></i>@MultiLangCV.App_GlobalResources.CV.mw_add</h2>
+                    <div class="summary">
+                        <p>@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_add_info)</p>
+                    </div><!--//summary-->
+                </section><!--//section-->
+
+
+                <section class="section education-section">
+                    <h2 class="section-title"><i class="fa fa-book"></i>@MultiLangCV.App_GlobalResources.CV.mw_education</h2>
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="edu-inst-title">@MultiLangCV.App_GlobalResources.CV.mw_edu_1_name</h3>
+                                <div class="edu-time">@MultiLangCV.App_GlobalResources.CV.mw_edu_1_time</div>
+                            </div><!--//upper-row-->
+                            <div class="edu-inst-place">@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_edu_1_place)</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <p>@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_edu_1_rank)</p>
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="edu-inst-title">@MultiLangCV.App_GlobalResources.CV.mw_edu_2_name</h3>
+                                <div class="edu-time">@MultiLangCV.App_GlobalResources.CV.mw_edu_2_time</div>
+                            </div><!--//upper-row-->
+                            <div class="edu-inst-place">@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_edu_2_place)</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            <p>@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_edu_2_rank)</p>
+                        </div><!--//details-->
+                    </div><!--//item-->
+                </section><!--//section-->
+
+
+                <section class="section languages-section">
+                    <h2 class="section-title"><i class="fa fa-globe"></i>@MultiLangCV.App_GlobalResources.CV.mw_laguages</h2>
+                    <div class="item">
+                        <div class="details">
+                            <p>@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_lang_en)</p>
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="details">
+                            <p>@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_lang_ua)</p>
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="details">
+                            <p>@Html.Raw(MultiLangCV.App_GlobalResources.CV.mw_lang_ru)</p>
+                        </div><!--//details-->
+                    </div><!--//item-->
+                </section><!--//section-->
+                    
+
+                    <section class="skills-section section">
+                        <h2 class="section-title"><i class="fa fa-rocket"></i>@MultiLangCV.App_GlobalResources.CV.mw_skills_title</h2>
+                        <div class="skillset">
+                            <div class="item">
+                                <h3 class="level-title">MSSQL</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="80%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Firebird</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="78%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">MySQL</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="65%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">ASP.NET MVC</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="45%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">ASP.NET WebForms</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="40%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">HTML5 &amp; CSS</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="30%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Javascript</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="25%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Bootstrap</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="20%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="level-title">Delphi</h3>
+                                <div class="level-bar">
+                                    <div class="level-bar-inner" data-level="50%">
+                                    </div>
+                                </div><!--//level-bar-->
+                            </div><!--//item-->
+
+                        </div>
+                    </section><!--//skills-section-->
+
+</div><!--//main-body-->
+        </div>
+
+        <footer class="footer">
+            <div class="text-center">
+                <button type="button" class="btn btn-link btn-sm" onclick="location.href='@Url.Action("PrintCV", "Home", new { LangCode = "en" })'">
+                    <i class="fa fa-cloud-download"> Download CV (EN)</i>
+                </button>
+                <button type="button" class="btn btn-link btn-sm" onclick="location.href='@Url.Action("PrintCV", "Home", new { LangCode = "ru" })'">
+                    <i class="fa fa-cloud-download"> Загрузить резюме (RU) </i>
+                </button>
+                <button type="button" class="btn btn-link btn-sm" onclick="location.href='@Url.Action("PrintCV", "Home", new { LangCode = "uk" })'">
+                    <i class="fa fa-cloud-download"> Завантажити резюме (UA)</i>
+                </button>
+
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->               
+            </div><!--//container-->
+        </footer><!--//footer-->
+        <!-- Javascript -->
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+
+                            
+
+</body >
+</html >

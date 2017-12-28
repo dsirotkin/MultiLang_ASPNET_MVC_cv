@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mw_1_exp_company" xml:space="preserve">
+    <value>&lt;a href="http://www.pharmplanet.com.ua" target="_blank"&gt;Pharmplanet. Київ, Україна.&lt;/a&gt;</value>
+  </data>
+  <data name="mw_1_exp_pos" xml:space="preserve">
+    <value>Спеціаліст служби підтримки</value>
+  </data>
+  <data name="mw_1_exp_resp" xml:space="preserve">
+    <value>&lt;P&gt; Обов'язки: &lt;/ p&gt;
+&lt;P&gt; - Виправлення помилок в збережених процедурах (Firebird). &lt;/ P&gt;
+&lt;P&gt; - Створення та налагодження звітів. &lt;/ P&gt;</value>
+  </data>
+  <data name="mw_1_exp_time" xml:space="preserve">
+    <value>Листопад 2011 - Червень 2012 (8 місяців)</value>
+  </data>
+  <data name="mw_2_exp_company" xml:space="preserve">
+    <value>&lt;a href="http://fleettech.com.ua/" target="_blank"&gt;Fleettech. Київ, Україна.&lt;/a&gt;</value>
+  </data>
+  <data name="mw_2_exp_pos" xml:space="preserve">
+    <value>Backend програміст</value>
+  </data>
+  <data name="mw_2_exp_resp" xml:space="preserve">
+    <value>&lt;p&gt; Обов'язки: &lt;/p&gt;
+&lt;br&gt; - Аналіз вимог користувача &lt;/br&gt;
+&lt;br&gt; - Розробка фізичних і логічних моделей даних &lt;/br&gt;
+&lt;br&gt; - Створення збережених процедур, тригерів, уявлень, функцій. &lt;/br&gt;
+&lt;br&gt; - Розробка аналітичних звітів. &lt;/br&gt;
+&lt;br&gt; - Перенесення даних в нову базу даних з БД Firebird і Excell. &lt;/br&gt;
+&lt;br&gt; - автоматизація бізнес-процесів з використанням збережених процедур і MS SQL Jobs. &lt;/br&gt;
+&lt;br&gt; - Написання контролерів WebAPI з використанням Entity Framework. &lt;/br&gt;</value>
+  </data>
+  <data name="mw_2_exp_time" xml:space="preserve">
+    <value>Липень 2012 - Червень 2017 (5 років)</value>
+  </data>
+  <data name="mw_3_exp_company" xml:space="preserve">
+    <value>&lt;a href="https://www.luckylandgaming.com/" target="_blank"&gt;Lacky land gaming. Київ, Україна.&lt;/a&gt;</value>
+  </data>
+  <data name="mw_3_exp_pos" xml:space="preserve">
+    <value>T-SQL програміст</value>
+  </data>
+  <data name="mw_3_exp_resp" xml:space="preserve">
+    <value>&lt;p&gt; Обов'язки: &lt;/p&gt;
+&lt;p&gt; - Розробка нової нормализованной структури даних. Нормалізація вже існуючих таблиць. &lt;/p&gt;
+&lt;p&gt; - Створення збережених процедур, тригерів, уявлень, функцій для нового функціоналу &lt;/p&gt;
+&lt;p&gt; - Створення та підтримка SQL Server Jobs &lt;/p&gt;
+&lt;p&gt; - Налаштування бази даних. Управління індексами і оптимізація запитів. &lt;/p&gt;
+&lt;p&gt; - Написання і управління тригерами DDL. &lt;/p&gt;
+&lt;p&gt; - Налаштування бміну даними між БД. &lt;/p&gt;</value>
+  </data>
+  <data name="mw_3_exp_time" xml:space="preserve">
+    <value>Липень 2017 - теперішній час</value>
+  </data>
+  <data name="mw_add" xml:space="preserve">
+    <value>Додаткова інформація</value>
+  </data>
+  <data name="mw_add_info" xml:space="preserve">
+    <value>&lt;P&gt; Як розробник SQL, у мене є хороша практика розробки схеми бази даних. Я використовував оптимізовані для пам'яті таблиці, працював з JSON і XML в SQL. Я працював з новим проектом, де вся бізнес-логіка була в SQL. Також у мене є досвід роботи з високонавантажених базами даних (таблиці більше 10 ГБ). Брав участь в проекті як архітектор програмного забезпечення. Були розроблені мною збережені процедури для складних математичних обчислень, пошук у всіх строкових значеннях в DB, ​​DDL logger. &lt;/ Р&gt;
+&lt;P&gt; У мене є аналітичні навички, які я використовував для розробки бізнес-процесів в програмному забезпеченні і їх подальшої реалізації. Я постійно відстежую нові можливості інструментів розробки і застосовую їх в своїй роботі. &lt;/ P&gt;
+&lt;P&gt; Я хочу розвивати свої навички в області програмування, я не зупиняюся на досягнутому. Вмію працювати в команді. Маю знання в області ООП і WEB програмування. Однією з моїх якостей є здатність швидко вивчати нові продукти і технології. Наділений творчими можливостями. Є бажання працювати і заробляти. &lt;/ P&gt;</value>
+  </data>
+  <data name="mw_education" xml:space="preserve">
+    <value>Освіта</value>
+  </data>
+  <data name="mw_edu_1_name" xml:space="preserve">
+    <value>Національний авіаційний універсітет</value>
+  </data>
+  <data name="mw_edu_1_place" xml:space="preserve">
+    <value>Київ, Україна</value>
+  </data>
+  <data name="mw_edu_1_rank" xml:space="preserve">
+    <value>Програмна інженерія, Бакалавр</value>
+  </data>
+  <data name="mw_edu_1_time" xml:space="preserve">
+    <value>Рік закінчення 2016</value>
+  </data>
+  <data name="mw_edu_2_name" xml:space="preserve">
+    <value>Олександрійський політехнічний коледж</value>
+  </data>
+  <data name="mw_edu_2_place" xml:space="preserve">
+    <value>Олександрія, Україна</value>
+  </data>
+  <data name="mw_edu_2_rank" xml:space="preserve">
+    <value>Програмна інженерія, молодший спеціаліст</value>
+  </data>
+  <data name="mw_edu_2_time" xml:space="preserve">
+    <value>Рік закінчення 2009</value>
+  </data>
+  <data name="mw_experiences" xml:space="preserve">
+    <value>Досвід роботи</value>
+  </data>
+  <data name="mw_laguages" xml:space="preserve">
+    <value>Знання мов</value>
+  </data>
+  <data name="mw_lang_en" xml:space="preserve">
+    <value>&lt;b&gt;Англійська&lt;/b&gt; - середній рівень</value>
+  </data>
+  <data name="mw_lang_ru" xml:space="preserve">
+    <value>&lt;b&gt;Українська&lt;/b&gt; - рідна</value>
+  </data>
+  <data name="mw_lang_ua" xml:space="preserve">
+    <value>&lt;b&gt;Російська&lt;/b&gt; - рідна</value>
+  </data>
+  <data name="sb_contacts" xml:space="preserve">
+    <value>Контакти</value>
+  </data>
+  <data name="sb_dob" xml:space="preserve">
+    <value>Дата народження</value>
+  </data>
+  <data name="sb_name" xml:space="preserve">
+    <value>Сіроткін Дмитро</value>
+  </data>
+  <data name="sb_other" xml:space="preserve">
+    <value>Інше</value>
+  </data>
+  <data name="sb_position" xml:space="preserve">
+    <value>T-SQL програміст</value>
+  </data>
+  <data name="sb_region" xml:space="preserve">
+    <value>Регіон</value>
+  </data>
+  <data name="sb_region_name" xml:space="preserve">
+    <value>Київ</value>
+  </data>
+  <data name="mw_skills_title" xml:space="preserve">
+    <value>Навички та вміння</value>
+  </data>
+</root>
